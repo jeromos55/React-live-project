@@ -11,7 +11,7 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     {/* <App /> */}
-    <StarRating maxRating={5} />
+    <StarRating maxRating={3} />
     <StarRating maxRating={10} />
     <StarRating />
   </StrictMode>
