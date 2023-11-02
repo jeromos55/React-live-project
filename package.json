@@ -1,14 +1,13 @@
 {
-  "name": "19-usepopcorn",
+  "name": "react-challenge-text-expander-starter",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "loader-utils": "3.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "4.0.0"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
