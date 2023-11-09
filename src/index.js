@@ -1,23 +1,14 @@
-import React from "react";
-
-import ReactDOM from "react-dom/client";
-// import ReactDOM from 'react-dom';
+import { StrictMode, useState } from "react";
+import { createRoot } from "react-dom/client";
 
 import App from "./App";
-import "./index.css";
+import "./styles.css";
 
-// REACT 18
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
 root.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>
 );
-
-// REACT 17
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
